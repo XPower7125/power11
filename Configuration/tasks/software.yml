@@ -1,0 +1,19 @@
+title: Software
+description: Install Software
+privilege: TrustedInstaller
+actions:
+
+- WriteStatus Uninstalling Edge
+  - !run: {exe: 'removeEdge.bat', exeDir: true}
+
+ - WriteStatus Installing Firefox
+  - !run:
+    exe: 'winget'
+    args: 'intall Mozilla.Firefox --silent'
+    weight: 5
+
+- WriteStatus Removing SMBDirect
+  - !run:
+    exe: 'DISM'
+    args: '/Online /Disable-Feature /FeatureName:"SmbDirect" /NoRestart'
+    weight: 5
