@@ -4,7 +4,7 @@ guide.
 <Playbook>
         <Name>Power11</Name>
         <Username>XPower7125</Username>
-        <This is Power11: a playbook for Winidows 11 made to make Windows 11 better</ShortDescription>
+        <ShortDescription>his is Power11! a playbook for Winidows 11 made to make Windows 11 better</ShortDescription>
         <Title>Power11</Title>
         <Description>Power11 aimsto make Windows 11 what it should've been.</Description>
         <Details>This playbooks cuts unnecessary features without removing important parts of the OS</Details>
@@ -20,7 +20,7 @@ guide.
                 <Requirement>NoAntivirus</Requirement>
                 <Requirement>PluggedIn</Requirement>
         </Requirements>
-        <ProductCode>117</ProductCode>
+        <ProductCode>4367</ProductCode>
         <ProgressText>Reticulating splines, Fixing your OS, installing replacement apps.</ProgressText>
         <Git>https://github.com/XPower7125/poweros-11-playbook</Git> 
 title: Custom
