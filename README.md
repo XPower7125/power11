@@ -7,3 +7,5 @@ Inspired by the ReviOS playbook
 
 ## Usage
 To use this playbook you need AME Wizard.
+
+* some code is taken from the ReviOS playbook (FOR NOW)
