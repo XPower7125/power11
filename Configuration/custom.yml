@@ -1,0 +1,35 @@
+guide.
+
+<?xml version="1.0" encoding="utf-8"?>
+<Playbook>
+        <Name>Power11</Name>
+        <Username>XPower7125</Username>
+        <This is Power11: a playbook for Winidows 11 made to make Windows 11 better</ShortDescription>
+        <Title>Power11</Title>
+        <Description>Power11 aimsto make Windows 11 what it should've been.</Description>
+        <Details>This playbooks cuts unnecessary features without removing important parts of the OS</Details>
+        <Version>2305.0</Version>
+        <SupportedBuilds>
+                <string>22000</string>
+                <string>22621</string>
+        </SupportedBuilds>
+        <Requirements>
+                <Requirement>Internet</Requirement>
+                <Requirement>NoPendingUpdates</Requirement>
+                <Requirement>DefenderDisabled</Requirement>
+                <Requirement>NoAntivirus</Requirement>
+                <Requirement>PluggedIn</Requirement>
+        </Requirements>
+        <ProductCode>4378</ProductCode>
+        <ProgressText>Reticulating splines, Fixing your OS, installing replacement apps.</ProgressText>
+        <Git>https://github.com/XPower7125/poweros-11-playbook</Git> 
+title: Custom
+description: Custom configuration
+privilege: Admin
+actions: []
+features:
+- tasks\registry.yml
+- tasks\appx.yml
+- tasks\software.yml
+- tasks\taskkill.yml
+</Playbook>
