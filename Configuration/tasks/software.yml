@@ -3,16 +3,16 @@ description: Install Software
 privilege: TrustedInstaller
 actions:
 
-- WriteStatus Uninstalling Edge
+- !writeStatus {status: "Removing Edge"}:
   - !run: {exe: 'removeEdge.bat', exeDir: true}
 
- - WriteStatus Installing Firefox
+- !writeStatus {status: "Installing Firefox"}:
   - !run:
     exe: 'winget'
     args: 'intall Mozilla.Firefox --silent'
     weight: 5
 
-- WriteStatus Removing SMBDirect
+- !writeStatus {status: "Removing SMBDirect"}:
   - !run:
     exe: 'DISM'
     args: '/Online /Disable-Feature /FeatureName:"SmbDirect" /NoRestart'

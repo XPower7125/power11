@@ -1,9 +1,0 @@
-title: Title. You can edit this in custom.yml
-description: Description. You can also edit this in custom.yml
-privilege: Admin
-actions: []
-features:
-- tasks\registry.yml
-- tasks\appx.yml
-- tasks\software.yml
-- tasks\taskkill.yml
