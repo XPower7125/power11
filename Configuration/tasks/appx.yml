@@ -2,7 +2,7 @@ title: Appx
 description: Modify appx files
 privilege: TrustedInstaller
 actions:
- - !writeStatus: {status: "Removing UWP apps"}
+  - !writeStatus: {status: "Removing UWP apps"}
   - !appx: {name: '*Disney*', type: family}
   - !appx: {name: '*microsoft.microsoftedge.stable*', type: family}
   - !appx: {name: '*Microsoft.MicrosoftEdge*', type: family}

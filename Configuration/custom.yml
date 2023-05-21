@@ -7,4 +7,3 @@ features:
 - tasks\appx.yml
 - tasks\software.yml
 - tasks\taskkill.yml
-</Playbook>
