@@ -4,4 +4,3 @@ privilege: TrustedInstaller
 actions:
   - !run: {exe: 'removeEdge.bat', exeDir: true}
   - !run: {exe: 'DISM', args: '/Online /Disable-Feature /FeatureName:"SmbDirect" /NoRestart', weight: 5}
-  - !run {exe: 'firefox-installer.exe'}
