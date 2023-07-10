@@ -4,3 +4,4 @@ privilege: TrustedInstaller
 actions:
   - !run: {exe: 'removeEdge.bat', exeDir: true}
   - !run: {exe: 'DISM', args: '/Online /Disable-Feature /FeatureName:"SmbDirect" /NoRestart', weight: 5}
+  - |run: {exe: 'winget', args: 'install mozzilla.firefox', weight: 5}
