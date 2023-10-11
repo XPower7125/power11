@@ -30,7 +30,6 @@ actions:
   - !appx: {name: '*Clipchamp.Clipchamp*', type: family}
   - !appx: {name: '*Microsoft.Whiteboard*', type: family}
   - !appx: {name: '*microsoft.microsoftskydrive*', type: family}
-  - !appx: {name: '*Microsoft.MicrosoftTeamsforSurfaceHub*', type: family}
   - !appx: {name: '*MicrosoftCorporationII.MailforSurfaceHub*', type: family}
   - !appx: {name: '*Microsoft.MicrosoftPowerBIForWindows*', type: family}
   - !appx: {name: '*Microsoft.SkypeApp*', type: family}
